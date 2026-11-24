@@ -1,7 +1,7 @@
 name: Hola.mundo #clave:name | valor: Hola-mundo
 on: [push]
 
-jobs: 
+jobs:
   primer-job:
     runs-on: ubuntu-latest
     steps:
@@ -14,5 +14,5 @@ jobs:
           python-version: '3.12'
 
       - name: ejecutar codigo
-        run: python ejemplo.py    
-
+        run: python github_actions/ejemplo.py
+```[cite: 2]
