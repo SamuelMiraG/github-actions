@@ -15,4 +15,3 @@ jobs:
 
       - name: ejecutar codigo
         run: python github_actions/ejemplo.py
-```[cite: 2]
